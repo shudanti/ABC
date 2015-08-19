@@ -1,0 +1,21 @@
+{
+    "name": "shudanti/abc",
+    "description": "small test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shudanti",
+            "email": "shudanti@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "ABC\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3.0"
+        
+	}
+}
