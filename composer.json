@@ -18,9 +18,5 @@
 		"php": ">=5.4.0"
         
 	},
-	"extra": {
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        }
-    }
+	"minimum-stability": "stable"
 }
