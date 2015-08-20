@@ -2,7 +2,10 @@
 namespace ABC\Library;
 
 class ABC_Test{
-	function hello(){
-		return "Hello ABC";
+	public static function hello(){
+		return "Hello ABC!";
+	}
+	public static function goodbye(){
+		return "Goodbye everyone!";
 	}
 }
