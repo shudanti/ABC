@@ -13,14 +13,14 @@
             "ABC\\": "src/"
         }
     },
-    "minimum-stability": "dev",
-	"preferred-install": "dev",
-	"minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
+    
     "require": {
-		
+		"php": ">=5.4.0"
         
-	}
+	},
+	"extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
 }
