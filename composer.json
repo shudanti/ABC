@@ -1,13 +1,20 @@
 {
     "name": "shudanti/abc",
     "description": "small test",
-    "license": "MIT",
+	"keywords": ["captcha", "abc", "test"],
+	"license": "MIT",
+	"homepage": "http://captcha.com/doc/php/laravel-captcha-quickstart.html",
     "authors": [
         {
             "name": "shudanti",
             "email": "shudanti@gmail.com"
         }
     ],
+	"support": {
+        "email": "shudanti@gmail.com",
+        "issues": "https://github.com/shudanti/ABC/issues",
+        "forum": "https://github.com/shudanti/ABC/issues"
+    },
 	"autoload": {
         "psr-4": {
             "ABC\\": "src/"
@@ -15,6 +22,7 @@
     },
     
     "require": {
+		"captcha-com/captcha": "3.*",
 		"php": ">=5.4.0"
         
 	},
@@ -25,6 +33,4 @@
             "dev-master": "3.x-dev"
         }
     }
-	
-    
 }
