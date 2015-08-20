@@ -20,8 +20,6 @@
 	},
 	"minimum-stability": "stable",
 	"extra": {
-        "branch-alias": {
-            "dev-master": "3.x-dev"
-        }
+        "branch-alias": "1.0"
     }
 }
